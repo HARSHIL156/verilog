@@ -1,12 +1,6 @@
 platform: nangate45             # currently only supports 'nangate'
 
-design_name: traffic_lights     # top-level design name
+design_name: inverter     # top-level design name
 
 verilog_files:                  # relative path of the source files
-- traffic_lights.v
-
-die_area: "0 0 620.15 620.6"            # die area as a box
-core_area: "10.07 11.2 610.27 610.8"    # core area as a box
-
-clock_period: 5.00             # clock period in nanoseconds
-         
+- inverter.v
